@@ -49,7 +49,7 @@ const Hotel = (props) => (
                 </div>
             </div>
             
-            <BestsellerFlag isBestseller={props.hotel.isBestSeller} />
+            <BestSellerFlag isBestseller={props.hotel.isBestSeller} />
 
     </li>
 )
