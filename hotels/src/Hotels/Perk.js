@@ -7,3 +7,5 @@ const Perk = (props) => {
         return null
     }
 }
+
+export default Perk;
