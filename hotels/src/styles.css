@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+  /* When a width is set on child cont., the margin settings above have the effect of centering the object within the parent container.
+  ...shorthand for 
+  margin-top:0;
+margin-bottom:0;
+margin-left:auto;
+margin-right:auto;
+  */
+}
+
+.hotels-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hotel {
+  padding: 10px;
+  margin: 16px 10px;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+.hotel:hover {
+  background-color: lightblue;
+}
+
+.hotel__image {
+  display: block;
+  width: 275px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.hotel__text {
+  width: 100%;
+  color: #888;
+}
+
+.hotel__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel__name {
+  font-size: 20px;
+  padding: 3px 0;
+  color: #07c;
+  font-weight: bold;
+  margin: 0;
+  line-height: 28px;
+}
+
+.hotel__rating {
+  display: block;
+  color: white;
+  background: darkblue;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 10px 10px 10px 0;
+}
+
+.hotel__main {
+  display: flex;
+  justify-content: space-between;
+  height: 160px;
+}
+
+.hotel-perks {
+  display: block;
+  color: green;
+}
+
+.hotel__rooms-remaining {
+  display: block;
+  color: red;
+  margin-top: 20px;
+}
